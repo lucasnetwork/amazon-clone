@@ -14,7 +14,11 @@ const Global = createGlobalStyle`
     }
     .App{
         display:flex;
-        flex-direction:column
+        flex-direction:column;
+        main{
+            background-color:#eee;
+            flex:1;
+        }
     }
 `
 
