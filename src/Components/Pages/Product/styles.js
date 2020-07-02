@@ -83,5 +83,6 @@ const CommentContent = styled.div`
     border-top:1px solid #eee;
     background-color:#fff;
     padding: 40px 200px;
+    height:100%;
 `
 export {ProductContent,ImagesContent,InforContent,TitleContent,BuyContent,CommentContent}

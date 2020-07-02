@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const Content = styled.div`
     width:100%;
-    height:200px;
+    height:auto;
     .profile{
         display:flex;
         align-items:center;
