@@ -8,8 +8,13 @@ const Content = styled.header`
     height:50px;
     padding:10px 40px;
     color:#fff;
-    h1{
-        font-size:2.5em
+    a{
+        color:#fff;
+        text-decoration:none;
+        h1{
+            font-size:2.5em;
+        }
+
     }
     .search{
         display:flex;

@@ -1,10 +1,13 @@
 import React from 'react'
-import {FiShoppingCart as Car, FiSearch as Search} from 'react-icons/fi'
+import {Link} from 'react-router-dom'
+import {FiShoppingCart as Cart, FiSearch as Search} from 'react-icons/fi'
 import Content from './styles'
 const Header = () =>{
     return(
         <Content>
-            <h1>Eufrates</h1>
+            <Link to="/">
+                <h1>Eufrates</h1>
+            </Link>
             <form className="search">
                 <select>
                     <option selected="selected" value="search-alias=aps">All Departments</option>
@@ -13,7 +16,9 @@ const Header = () =>{
                 <Search/>
             </form>
 
-            <Car id="cart" />
+            <Link to="/cart">
+                <Cart id="cart" />
+            </Link>
         </Content>
     )
 }
